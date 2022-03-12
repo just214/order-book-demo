@@ -1,5 +1,3 @@
-# justin-11-12-2021
+# Order Book Demo
 
-You know what this is 🙂
-
-Built with Next.js, TypeScript, and TailwindCSS.
+A cryptocurrency order book demo built with Next.js.
