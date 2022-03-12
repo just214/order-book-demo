@@ -1,0 +1,51 @@
+{
+  "name": "justin-11-13-2021",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@koale/useworker": "^4.0.2",
+    "@radix-ui/react-polymorphic": "^0.0.14",
+    "@reach/window-size": "^0.16.0",
+    "ahooks": "^3.1.13",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-error-boundary": "^3.1.4",
+    "react-icons": "^4.3.1",
+    "react-loading-skeleton": "^3.0.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@types/react": "^17.0.40",
+    "autoprefixer": "^10.4.2",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.11.0",
+    "eslint-config-gojutin": "^0.1.7",
+    "eslint-config-next": "12.1.0",
+    "husky": "^7.0.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "postcss": "^8.4.8",
+    "prettier": "^2.5.1",
+    "react-test-renderer": "^17.0.2",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}
